@@ -12,4 +12,8 @@ public class Employee {
         this.hoursWorked = hoursWorked;
         this.payRate = payRate;
     }
+
+    public int getEmployeeId() {
+        return employeeId;
+    }
 }
