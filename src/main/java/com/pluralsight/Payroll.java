@@ -9,7 +9,7 @@ public class Payroll {
         try {
             BufferedReader bufferedReader = new BufferedReader(new FileReader("employees.csv"));
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println("Something went wrong!");
         }
     }
 }
